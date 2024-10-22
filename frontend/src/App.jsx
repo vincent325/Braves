@@ -12,7 +12,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('home');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/batters')
+    axios.get('https://braves.onrender.com/api/batters')
       .then(response => {
         setBatters(response.data);
       })
