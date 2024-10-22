@@ -1,7 +1,6 @@
 # Baseball Statistics Visualization
 
-Fully deployed backend and frontend. Click below:
-[braves-web.onrender.com](https://braves-web.onrender.com)
+## Fully deployed backend and frontend. Click here: [braves-web.onrender.com](https://braves-web.onrender.com)
 
 ## Overview
 This project is a full-stack web application that visualizes baseball statistics of different batters. 
