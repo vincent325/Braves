@@ -10,7 +10,7 @@ const VideoSearch = () => {
 
   // Get list of batters on component mount
   useEffect(() => {
-    axios.get('http://localhost:5000/api/batters')
+    axios.get('https://braves.onrender.com/api/batters')
       .then(response => {
         setBatters(response.data);
       })
@@ -28,7 +28,7 @@ const VideoSearch = () => {
 
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5000/api/search?batter=${encodeURIComponent(batter)}`);
+      const response = await axios.get(`https://braves.onrender.com/api/search?batter=${encodeURIComponent(batter)}`);
       setBatterData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);

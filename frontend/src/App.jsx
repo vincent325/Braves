@@ -24,7 +24,7 @@ function App() {
     if (!selectedBatter) return;
 
     try {
-      const response = await axios.get(`http://localhost:5000/api/search?batter=${encodeURIComponent(selectedBatter)}`);
+      const response = await axios.get(`https://braves.onrender.com/api/search?batter=${encodeURIComponent(selectedBatter)}`);
       setHits(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
