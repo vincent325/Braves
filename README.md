@@ -8,7 +8,7 @@ Backend: [https://braves.onrender.com/api/batters (backend)](https://braves.onre
 ### IMPORTANT:
 Since I am hosting it on a free tier cloud service, the backend goes down when there is 15 minutes of inactivity. I work around this by setting up a pinging service that would send a request to the backend every 5 minutes. However, the system is not the best and sometimes the backend shuts off anyways.
 
-If this happens go to [backend](https://braves.onrender.com/api/batters) and wait for up to 2 minutes. Then try the frontend again
+If this happens go to [backend](https://braves.onrender.com/api/batters) and wait until you see an array of batters (3 minutes max). Then try the frontend again
 
 ## Overview
 This project is a full-stack web application that visualizes baseball statistics of different batters. 
